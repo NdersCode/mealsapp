@@ -37,13 +37,13 @@ class CategoryGridItem extends StatelessWidget {
                     color: Theme.of(context).colorScheme.onBackground,
                   ),
             ),
-            const SizedBox(height: 24),
-            Text(
-              category.id,
-              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                    color: Theme.of(context).colorScheme.onBackground,
-                  ),
-            ),
+            // const SizedBox(height: 24),
+            // Text(
+            //   category.id,
+            //   style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+            //         color: Theme.of(context).colorScheme.onBackground,
+            //       ),
+            // ),
           ],
         ),
       ),
