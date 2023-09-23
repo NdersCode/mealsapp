@@ -21,6 +21,7 @@ class MealDetailScreen extends StatelessWidget {
           meal.imageUrl,
           height: 300,
           width: double.infinity,
+          fit: BoxFit.fill,
         ));
   }
 }
