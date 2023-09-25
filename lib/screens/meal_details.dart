@@ -72,7 +72,7 @@ class MealDetailScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: 8),
                     width: double.infinity,
                     child: Text(
-                      '• ' + step,
+                      '• $step',
                       style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                             color: Theme.of(context).colorScheme.onBackground,
                           ),
